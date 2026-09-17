@@ -1,0 +1,40 @@
+{
+  "dataset_shape_raw": [
+    920,
+    16
+  ],
+  "dataset_shape_after_cleaning": [
+    918,
+    15
+  ],
+  "duplicates_removed": 2,
+  "class_distribution": {
+    "1": 508,
+    "0": 410
+  },
+  "comparison_table": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.8152,
+      "Precision": 0.8148,
+      "Recall": 0.8627,
+      "F1-Score": 0.8381,
+      "ROC AUC": 0.9073
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.8152,
+      "Precision": 0.8542,
+      "Recall": 0.8039,
+      "F1-Score": 0.8283,
+      "ROC AUC": 0.8684
+    }
+  ],
+  "best_model": "Logistic Regression",
+  "sample_prediction": {
+    "index": 514,
+    "actual": 1,
+    "predicted": 0,
+    "predicted_probability": 0.3427110839545309
+  }
+}
